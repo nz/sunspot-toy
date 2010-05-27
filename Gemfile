@@ -6,4 +6,5 @@ gem "sqlite3-ruby"
 
 group :production do
   gem "pg"
+  gem "thin"
 end
