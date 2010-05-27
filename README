@@ -1,1 +1,2 @@
 This is a simple app that uses Sunspot to index a Rails 'Post' scaffold.  It's setup to use Websolr in production mode.
+
