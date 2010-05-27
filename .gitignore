@@ -1,2 +1,4 @@
 solr
 db/*.sqlite3
+.bundle
+tmp/restart.txt
