@@ -5,8 +5,7 @@ gem "sqlite3-ruby"
 
 gem "websolr-sunspot_rails", ">=1.1.0.3"
 
-# 
-# group :production do
-#   gem "pg"
-#   gem "thin"
-# end
+group :production do
+  gem "pg"
+  gem "thin"
+end
