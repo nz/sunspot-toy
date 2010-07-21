@@ -1,1 +1,1 @@
-gem "websolr-sunspot_rails", "1.1.0.1"
+websolr-sunspot_rails -v 1.1.0.1
