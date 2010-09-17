@@ -15,5 +15,3 @@ config.action_controller.perform_caching             = false
 
 # Don't care if the mailer can't send
 config.action_mailer.raise_delivery_errors = false
-
-Sunspot.config.solr.url = 'http://index.websolr.com/solr/6cb41cfd61c'

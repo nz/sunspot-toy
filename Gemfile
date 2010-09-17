@@ -1,11 +1,6 @@
 source :gemcutter
 
-gem "rails", "2.3.5"
+gem "rails", "2.3.8"
 gem "sqlite3-ruby"
 
-gem "websolr-sunspot_rails", ">=1.1.0.5"
-
-group :production do
-  gem "pg"
-  gem "thin"
-end
+gem "sunspot_rails", "~> 1.1", :require => 'sunspot/rails'

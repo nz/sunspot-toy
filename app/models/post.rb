@@ -1,5 +1,5 @@
-load "websolr-sunspot_rails.rb"
 class Post < ActiveRecord::Base
+
   searchable do
     text :title, :content
     integer :id
@@ -8,4 +8,5 @@ class Post < ActiveRecord::Base
       title.downcase.sub(/^(an?|the) /, '')
     end
   end
+
 end
